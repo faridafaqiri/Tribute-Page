@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url(images/light-pink.jpg);
+  color: #333;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+  padding: 15px;
+}
+
+#title {
+  text-align: center;
+  font-size: 50px;
+}
+
+#first {
+  margin: 20px;
+  text-align: center;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+}
+
+#image {
+  margin: 20px;
+  padding: auto;
+  border-radius: 10px;
+  width: 520px;
+  display: block;
+  max-width: 100%;
+}
+
+#img-caption {
+  padding: 20px;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+#headline {
+  text-align: center;
+  padding-bottom: 2%;
+  font-size: 1.1rem;
+}
+
+#tribute-info {
+  padding: 3%;
+  margin: 0 5%;
+}
+
+ul li {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+#second {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 0;
+}
+
+#h3 {
+  text-align: left;
+  display: inline;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 600px;
+  margin: 10px auto 50px auto;
+  text-align: left;
+  border: 2px dotted #333;
+  padding: 0 5px;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
